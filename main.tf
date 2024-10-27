@@ -65,7 +65,7 @@ resource "google_container_node_pool" "primary_nodes" {
   node_count = 1
 
   node_config {
-    service_account = "gkeclusterserviceaccount@devops-dev-439108.iam.gserviceaccount.com"
+    service_account = ""
 
     preemptible  = true
     machine_type = "e2-micro"
